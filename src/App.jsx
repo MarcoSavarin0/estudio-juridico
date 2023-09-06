@@ -1,5 +1,8 @@
 import { Navbar } from "./Navbar/Navbar"
 import { Header } from "./Header/Header"
+import { ServiciosMain } from "./Servicios/ServiciosMain"
+import { WhatsAppButton } from "./WhatsAppWeb/WhatsAppButton"
+import { Footer } from "./Footer/Footer"
 function App() {
 
 
@@ -7,6 +10,9 @@ function App() {
     <>
       <Navbar/> 
       <Header/> 
+      <ServiciosMain/> 
+      <WhatsAppButton/> 
+      <Footer/> 
     </>
   )
 }
