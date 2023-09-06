@@ -1,20 +1,53 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+  list-style: none;
+}
+
 body{
-  background-color: #F7EBD3;
+  background-color: #FFDBAFBA;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+}
+
+.header-container {
+  background: url(tribunales.webp)rgba(211, 211, 211, 0.753) 50% / cover no-repeat;
+  height: 92.5vh;
+  
+}
+
+.h1-header {
+  margin: 0;
+  padding-left: 150px;
+  padding-top: 15rem;
+  color: #5A0609;
+  font-size: 64px;
+  -webkit-text-stroke: 1px #ffffffd2;
+}
+
+.h4-header {
+  margin: 0;
+  padding-left: 150px;
+  color: #fff;
 }
 
 .navbar-container{
   display: flex;
+  height: 10vh;
   justify-content: space-between;
+  background-color: #F7EBD3;
+  color: #5A0609;
+  background: url(estudio-i-f.jpeg) no-repeat;
+  background-size: 200px;
 }
 
 .navbar-container-items ul{
     display: flex;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar-items{
-  margin: 10px;
+  margin: 37px;
 }
