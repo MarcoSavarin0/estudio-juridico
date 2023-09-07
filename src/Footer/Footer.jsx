@@ -17,11 +17,13 @@ export const Footer = () => {
                 </section>
                 <div className="infomation-footer">
                     <p><i className="fa-solid fa-location-dot"></i>Santa Fe, Argentina</p>
-                    <p><i className="fa-solid fa-envelope"></i>estudioJuridico@gmail.com</p>
+                    <p><i className="fa-solid fa-envelope"></i>est.jco.nt@hotmail.com</p>
                     <p><i className="fa-solid fa-phone-volume"></i>+54 3234455</p>
                 </div>
-                <p className="created"> <strong>IF 2023</strong>  todos los derechos reservados</p>
-                <p className="created" >Created by <a href="https://devminds.me" target="_blank">Devminds</a></p>
+                <div className="created2">
+                <p className="created"> <strong>Estudio I - F © 2023</strong>  todos los derechos reservados</p>
+                <p className="created" >Created, design & depoyed by <a href="https://devminds.me" target="_blank">DevMinds</a></p>
+                </div>
             </footer>
         </>
     )
