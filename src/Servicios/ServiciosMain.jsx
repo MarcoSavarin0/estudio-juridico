@@ -28,7 +28,6 @@ export const ServiciosMain = () => {
               </div>
             </div>
             <div className="col-md-6 order-md-first imagen">
-
             </div>
           </div>
         </div>

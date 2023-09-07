@@ -63,6 +63,30 @@ body {
   background-color: #fde7ba;
 }
 
+
+.redes-sociales{
+  color: #fde7ba;
+  margin-top: 10px;
+}
+.redes-sociales i {
+  margin: 0 5px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.redes-sociales i:hover{
+    color: #F7EBD3;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
 .fa-arrow-down {
   color: #fde7ba;
   font-size: 40px;
@@ -122,7 +146,12 @@ body {
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
+.about-me {
+  margin-top: 100px;
+}
+
 
 .whatsapp-button {
   position: fixed;
@@ -198,4 +227,13 @@ footer{
 }
 .map:hover{
   box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.124);;
+}
+
+.hr-cutter{
+ 
+    width: 80%; /* Ancho de la línea */
+    height: 2px; /* Grosor de la línea */
+    background-color: #3333336c; /* Color de la línea */
+    margin: 20px auto; /* Margen superior e inferior para centrarla */
+
 }

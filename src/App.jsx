@@ -3,6 +3,8 @@ import { Header } from "./Header/Header"
 import { ServiciosMain } from "./Servicios/ServiciosMain"
 import { WhatsAppButton } from "./WhatsAppWeb/WhatsAppButton"
 import { Footer } from "./Footer/Footer"
+import { SobreNosotros } from "./SobreNosotros/SobreNosotros"
+import { Hr } from "./HrCortadorDeSection/Hr"
 function App() {
 
 
@@ -11,6 +13,8 @@ function App() {
       <Navbar/> 
       <Header/> 
       <ServiciosMain/> 
+      <Hr/> 
+      <SobreNosotros/> 
       <WhatsAppButton/> 
       <Footer/> 
     </>
