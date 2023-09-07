@@ -1,5 +1,6 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Times New Roman', serif;
   box-sizing: border-box;
   list-style: none;
 }
@@ -11,7 +12,7 @@ body {
 }
 
 .header-container {
-  background: url(tribunales.webp)rgba(211, 211, 211, 0.753) 50% / cover no-repeat;
+  background: url(tribunales5.webp)rgba(211, 211, 211, 0.753) 50% / cover no-repeat;
   background-attachment: fixed;
   height: 92vh;
   display: flex;
@@ -30,7 +31,7 @@ body {
 }
 
 .h1-header {
-  margin: 10px 0;
+  margin: 0 0;
   color: #5A0609;
   font-size: 64px;
   text-align: center;
@@ -79,13 +80,6 @@ body {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
-
-
-
-
-
-
-
 
 .fa-arrow-down {
   color: #fde7ba;
