@@ -19,6 +19,7 @@ body {
 .nav-link {
   color: #fff;
 }
+
 .header-container {
   background: url(tribunales5.webp)rgba(211, 211, 211, 0.753) 50% / cover no-repeat;
   background-attachment: fixed;
@@ -35,7 +36,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin: 0 auto;
+  background-color: #121212af;
+  width: 100%;
+  height: 100%;
 }
 
 .h1-header {
@@ -90,7 +95,7 @@ body {
 }
 
 .fa-arrow-down {
-  color: #fde7ba;
+  color: #059dd0 ;
   font-size: 40px;
   position: absolute;
   bottom: 3%;
@@ -100,14 +105,17 @@ body {
 
 @keyframes pulse {
   0% {
+    color: #059dd08d;
     transform: scale(1);
   }
 
   50% {
+    color: #059dd087;
     transform: scale(1.20);
   }
 
   100% {
+    color: #059dd07b;
     transform: scale(1);
   }
 }
@@ -233,10 +241,10 @@ footer{
 
 .hr-cutter{
  
-    width: 80%; /* Ancho de la línea */
-    height: 2px; /* Grosor de la línea */
-    background-color: #3333336c; /* Color de la línea */
-    margin: 20px auto; /* Margen superior e inferior para centrarla */
+    width: 80%; 
+    height: 2px; 
+    background-color: #3333336c; 
+    margin: 20px auto; 
 
 }
 
@@ -253,11 +261,27 @@ footer{
 }
 
 
+.service-page-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 830px;
+  background-color: #eaeaea;
+}
 
+.button-service-page{
+  display: flex;
+  flex-direction: column;
+}
 
+.button-service-page button{
+    margin: 10px 10px;
+}
 
-
-
-
+.descripcion-service-container{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
 
  

@@ -1,5 +1,5 @@
 
-
+import { Link } from "react-router-dom"
 export const ServiciosMain = () => {
   return (
     <>
@@ -23,6 +23,9 @@ export const ServiciosMain = () => {
                 </div>
                 <div className="servicio-box">
                   <p>D Laboral</p>
+                </div>
+                <div className=""> 
+                <Link to='/servicios'><button className="btn btn-primary">VER MAS</button></Link>
                 </div>
               </div>
             </div>

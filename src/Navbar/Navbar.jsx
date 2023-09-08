@@ -32,7 +32,7 @@ export const Navbar = () => {
                   <Link className="nav-link" to='/nuestro-estudio'>Nuestro Estudio</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to='#'>Servicios</Link>
+                  <Link className="nav-link" to='/servicios'>Servicios</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to='/profesionales'>Profesionales</Link>
