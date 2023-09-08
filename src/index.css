@@ -1,16 +1,24 @@
 * {
-  /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Times New Roman', serif;
+  font-family: 'Roboto', sans-serif; 
+ 
   box-sizing: border-box;
   list-style: none;
 }
 
 body {
-  background-color: #FFDBAFBA;
+  background-color:  #eae9e9 ;
   padding: 0;
   margin: 0;
+  color: #010101;
 }
+.navbar{
+  z-index: 19;
+  background-color:  #0077B6;
 
+}
+.nav-link {
+  color: #fff;
+}
 .header-container {
   background: url(tribunales5.webp)rgba(211, 211, 211, 0.753) 50% / cover no-repeat;
   background-attachment: fixed;
@@ -32,7 +40,7 @@ body {
 
 .h1-header {
   margin: 0 0;
-  color: #5A0609;
+  color: #d1d1d1;
   font-size: 64px;
   text-align: center;
 }
@@ -51,7 +59,7 @@ body {
 }
 
 .botonContacto {
-  background-color: #F7EBD3;
+  background-color: #e5f2f6 ;
   margin: 0 auto;
 }
 
@@ -61,12 +69,12 @@ body {
 }
 
 .botonContacto:hover {
-  background-color: #fde7ba;
+  background-color: #059dd0 ;
 }
 
 
 .redes-sociales{
-  color: #fde7ba;
+  color: #059dd0;
   margin-top: 10px;
 }
 .redes-sociales i {
@@ -76,7 +84,7 @@ body {
 }
 
 .redes-sociales i:hover{
-    color: #F7EBD3;
+    color: #ffffff;
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
@@ -114,7 +122,7 @@ body {
 
 .servicios-h3 {
   text-align: center;
-  color: #5A0609;
+  color: #101010;
   font-size: 34px;
   margin: 100px;
 }
@@ -123,7 +131,7 @@ body {
   display: flex;
 }
 .servicio-box {
-  background-color: #5A0609;
+  background-color: rgb(31, 74, 230);
   margin: 10px;
   width: 200px;
   text-align: center;
@@ -231,3 +239,25 @@ footer{
     margin: 20px auto; /* Margen superior e inferior para centrarla */
 
 }
+
+.navbar{
+  background-color: #1864AB;
+}
+.navbar-nav{
+  color: #fff;
+}
+
+.container-boxService{
+  max-width: 400px;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+ 

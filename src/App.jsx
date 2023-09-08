@@ -1,22 +1,24 @@
+/* eslint-disable no-unused-vars */
 import { Navbar } from "./Navbar/Navbar"
-import { Header } from "./Header/Header"
-import { ServiciosMain } from "./Servicios/ServiciosMain"
 import { WhatsAppButton } from "./WhatsAppWeb/WhatsAppButton"
 import { Footer } from "./Footer/Footer"
-import { SobreNosotros } from "./SobreNosotros/SobreNosotros"
-import { Hr } from "./HrCortadorDeSection/Hr"
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { WrapIndex } from "./WrapIndex/WrapIndex"
+import { Oficinas } from "./Oficinas/Oficinas"
+import { ProfesionalesPage } from "./Profesionales/ProfesionalesPage"
 function App() {
 
 
   return (
     <>
-      <Navbar/> 
-      <Header/> 
-      <ServiciosMain/> 
-      <Hr/> 
-      <SobreNosotros/> 
-      <WhatsAppButton/> 
-      <Footer/> 
+      <Navbar />
+      <Routes>
+        <Route element={< WrapIndex />} path='/' />
+        <Route element={< Oficinas />} path='/nuestro-estudio' />
+        <Route element={< ProfesionalesPage />} path='/profesionales' />
+      </Routes>
+      <WhatsAppButton />
+      <Footer />
     </>
   )
 }
