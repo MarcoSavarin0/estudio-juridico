@@ -16,7 +16,7 @@ export const Footer = () => {
 
                 </section>
                 <div className="infomation-footer">
-                    <p><i className="fa-solid fa-location-dot"></i>Santa Fe, Argentina</p>
+                    <p><i className="fa-solid fa-location-dot"></i>Oficina 1 Planta baja, Francia 3055</p>
                     <p><i className="fa-solid fa-envelope"></i>est.jco.nt@hotmail.com</p>
                     <p><i className="fa-solid fa-phone-volume"></i>+54 3234455</p>
                 </div>
