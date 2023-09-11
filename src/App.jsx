@@ -9,6 +9,7 @@ import { Oficinas } from "./Oficinas/Oficinas"
 import { ProfesionalesPage } from "./Profesionales/ProfesionalesPage"
 import { ServiciosPage } from "./ServicePage/ServiciosPage"
 import { WrapperScroll } from "./Scroll/Scroll"
+import Contacto from "./Contacto/Contacto"
 function App() {
 
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route element={< Oficinas />} path='/nuestro-estudio' />
         <Route element={< ProfesionalesPage />} path='/profesionales' />
         <Route element={< ServiciosPage />} path='/servicios' />
+        <Route element={< Contacto />} path='/Contacto' />
       </Routes>
       <WhatsAppButton />
       <Footer />

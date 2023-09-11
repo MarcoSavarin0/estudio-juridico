@@ -38,7 +38,7 @@ export const Navbar = () => {
                   <Link className="nav-link" to='/profesionales'>Profesionales</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to='#'>Contacto</Link>
+                  <Link className="nav-link" to='/Contacto'>Contacto</Link>
                 </li>
               </ul>
             </div>
